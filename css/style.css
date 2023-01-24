@@ -1,0 +1,239 @@
+:root{
+/* Fonts */
+--primary-font: "Roboto", sans-serif;
+--logo-font: "Raleway", sans-serif;
+/* Text & BG colors */
+--navy-blue-cl: #2E2F42;
+--slate-cl: #434455;
+--cornflower-cl: #E7E9FC;
+--irirs-cl: #4D5AE5;
+--ocean-cl:#404BBF;
+--cloud-cl: #F4F4FD;
+--light-cl:#FFFFFF;
+}
+
+body{
+    font-family: var(--primary-font);
+    background-color: var(--light-cl);
+    color: var(--navy-blue-cl);
+    list-style-type: none;
+}
+ul{
+    list-style-type: none;
+    /* Так взагалі можна робити чи ні ?  */
+}
+.link {
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-style: normal;
+}
+/* Logo */
+.logo {
+    font-family: var(--logo-font);
+    font-weight: 800;
+    font-size: 18px;
+    line-height: calc(24/18);
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--irirs-cl);
+
+}
+.logo-part{
+    color: var(--navy-blue-cl);
+}
+/* Buttom */
+.btn {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: calc(24/16);
+    letter-spacing: 0.04em;
+    
+    }
+    .hero-btn{
+        color:var(--light-cl);
+        background-color: var(--irirs-cl);
+        background: var(--irirs-cl);
+        border: 1px solid var(--irirs-cl);
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+    }
+    .hero-btn:focus,
+    .hero-btn:hover{
+    background-color: var(--ocean-cl);
+    cursor: pointer;
+    }
+    .portfolio-btn{
+    color: var(--irirs-cl);
+    background-color: var(--cornflower-cl);
+    border: 1px solid #E7E9FC;
+    border-radius: 4px;
+    }
+    .portfolio-btn:hover,
+    .portfolio-btn:focus{
+    color: var(--light-cl);
+    background-color: var(--ocean-cl);
+    cursor: pointer;
+    }
+/* Header */
+.header-nav {
+}
+.header-list {
+   
+}
+.header-item {
+
+}
+.header-link {
+font-weight: 500;
+font-size: 16px;
+line-height: calc(24/16);
+letter-spacing: 0.02em;
+color: var(--navy-blue-cl); 
+}
+.header-link:focus,
+.header-link:hover,
+.header-contacts-link:hover,
+.header-contacts-link:focus{
+    color: var(--ocean-cl);
+}
+.header-contacts {
+}
+.header-contacts-list {
+   
+}
+.header-contacts-item {
+}
+.header-contacts-link {
+font-weight: 400;
+font-size: 16px;
+line-height: calc(24/16);
+letter-spacing: 0.02em;
+color: var(--slate-cl);
+}
+/* hero-section */
+.hero {
+    background-color: var(--navy-blue-cl);
+}
+.hero-title {
+font-weight: 700;
+font-size: 56px;
+line-height: calc(60/56);
+letter-spacing: 0.02em;
+color: var(--light-cl);
+}
+/* Main text section */
+.main {
+}
+.main-list {
+   
+}
+.main-item {
+}
+.main-item-title {
+font-weight: 500;
+font-size: 20px;
+line-height: calc(24/20);
+letter-spacing: 0.02em;
+}
+.main-item-txt{
+font-weight: 400;
+font-size: 16px;
+line-height: calc(24/16);
+letter-spacing: 0.02em;
+color: var(--slate-cl);
+}
+/* What are we doing section */
+.products {
+}
+.products-title {
+}
+.title{
+font-weight: 700;
+font-size: 36px;
+line-height: calc(40/36);
+letter-spacing: 0.02em;
+text-transform: capitalize;
+}
+.products-list {
+  
+}
+.products-item {
+}
+/* Our team section  */
+.team {
+    background-color: var(--cloud-cl);
+}
+.team-title {
+}
+.team-list {
+    
+}
+.team-item {
+    background-color: var(--light-cl);
+}
+.team-item-title {
+font-weight: 500;
+font-size: 20px;
+line-height: calc(24/20);
+letter-spacing: 0.02em;
+}
+.team-item-txt {
+font-weight: 400;
+font-size: 16px;
+line-height: calc(24/16);
+letter-spacing: 0.02em;
+color: var(--slate-cl);
+}
+.team-item-txxt {
+}
+/* Footer */
+.footer {
+    background-color: var(--navy-blue-cl);
+}
+.footer-logo-part {
+    color: var(--cloud-cl);
+}
+.footer-txt {
+font-weight: 400;
+font-size: 16px;
+line-height: calc(24/16);
+letter-spacing: 0.02em;
+color: var(--cornflower-cl);
+}
+/* Portfolio page */
+/* Page title  */
+.visually-hidden{
+    position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.main-portfolio-list{
+   
+}
+/* Project card section */
+.project-card-row-item{
+  
+}
+.project-card-title {
+font-weight: 500;
+font-size: 20px;
+line-height: calc(24/20);
+letter-spacing: 0.02em;
+}
+.project-card-txt{
+    font-size: 16px;
+    line-height: calc(24/16);
+    letter-spacing: 0.02em;
+    color: var(--slate-cl);
+}
